@@ -4,4 +4,23 @@
 
 html, body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > span {
+  font-size: 0.90375rem;
 }
