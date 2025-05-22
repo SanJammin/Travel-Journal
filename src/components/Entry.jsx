@@ -1,5 +1,5 @@
 function Entry(props) {
-    const {img, title, country, googleMapsLink, dates, text} = props;
+    const {img, title, country, googleMapsLink, dates, text} = props.entry;
 
     return (
         <article className="journal-entry">
